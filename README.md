@@ -18,3 +18,5 @@ npm start
 
 > This app is using a node api which is hitting the twitter API.
   The API is deployed on Heroku.
+
+![Tweet Search](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)

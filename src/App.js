@@ -22,7 +22,7 @@ class App extends Component {
 
   userTweets = () => {
     if (this.state.searchInput == null) {
-      alert("Invalid Input");
+      alert("Enter Input Text");
     } else {
       this.setState({
         isLoading: true,
@@ -45,7 +45,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <div className="container-fluid bg">
+        <div className="container-fluid bg p-5">
           <div className="text-center align-middle">
             <div className="d-flex align-items-center justify-content-center">
               <h1>TWEET</h1>
