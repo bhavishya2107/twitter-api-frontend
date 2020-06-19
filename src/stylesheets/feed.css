@@ -1,0 +1,28 @@
+.feed {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+  border: 1px solid rgb(216, 211, 211);
+  border-radius: 50%;
+}
+
+.twitter-name {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.tweet-text {
+  font-weight: 300;
+  font-size: medium;
+  margin: 0;
+  padding: 1rem 0.5rem; 
+}
+
+

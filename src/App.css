@@ -7,6 +7,45 @@
   pointer-events: none;
 }
 
+.bg {
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+.home_bg {
+  background-color: #f7f7f7;
+  max-height: 100vh;
+}
+
+.input-container{
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 1rem;
+  position: relative;
+}
+
+.input-bar {
+  border: 1px solid transparent;
+  width: 100%;
+  border-radius: 8px;
+  padding: 1rem 1rem 1rem 4rem;
+
+}
+
+.input-bar:focus {
+  border-radius: 8px;
+  /* border: 1px solid #1088E3 !important; */
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  position:absolute;
+  left: 0.5rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
